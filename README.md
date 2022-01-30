@@ -1,4 +1,5 @@
 # react-self-hosted-fonts
+To self-host fonts, download the font files in ttf, woff, and/or woff2 formats and import them into your code.
 
 1. Create a self-hosted fonts .css file in the src/asset/fonts/Name/stylesheet.css directory
 2. Define @font-face settings for each of the font file types 
@@ -54,3 +55,8 @@ import { createTheme} from '@mui/material'
         )
         }
         export default App
+
+# Documentation:
+https://mui.com/customization/typography/#self-hosted-fonts
+
+https://transfonter.org/
