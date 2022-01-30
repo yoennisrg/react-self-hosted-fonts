@@ -34,7 +34,7 @@ import { createTheme} from '@mui/material'
 
  4. Try the solution
 
-        import { ThemeProvider } from '@mui/styles'
+        import { ThemeProvider } from '@mui/material/styles';
         import { Typography, Box, CssBaseline } from '@mui/material'
         import theme from './theme'
 
@@ -43,7 +43,7 @@ import { createTheme} from '@mui/material'
         return (
             <ThemeProvider theme={theme}>
             <CssBaseline />
-            <Typography fontFamily={'Raleway'}>Raleway - Almost before we knew it</Typography>
+            <Typography>Raleway - Almost before we knew it</Typography>
             <Box
                 sx={{
                 fontFamily: 'Raleway',
