@@ -21,7 +21,11 @@ To self-host fonts, download the font files in ttf, woff, and/or woff2 formats a
             font-style: italic;
             font-display: swap;
         }
-3. Define font settings for material ui v5 in a separate theme.tsx file
+
+3. import style sheet
+        <link href="src/assets/fonts/Raleway/stylesheet.css" rel="stylesheet">
+
+4. Define font settings for material ui v5 in a separate theme.tsx file
 import { createTheme} from '@mui/material'
 
         const theme = {
@@ -32,7 +36,7 @@ import { createTheme} from '@mui/material'
 
         export default createTheme(theme);
 
- 4. Try the solution
+ 5. Try the solution
 
         import { ThemeProvider } from '@mui/material/styles';
         import { Typography, Box, CssBaseline } from '@mui/material'
